@@ -42,7 +42,6 @@ Uma vez que o minikube esteja rodando, rode o seguinte comando para subir a infr
 
 ```sh
 kubectl apply -f infra/config
-kubectl apply -f infra/db
 kubectl apply -f infra/project
 ```
 
@@ -67,6 +66,5 @@ Caso precise, para parar todos os serviços rode o seguinte comando:
 
 ```sh
 kubectl delete -f infra/config
-kubectl delete -f infra/db
 kubectl delete -f infra/project
 ```

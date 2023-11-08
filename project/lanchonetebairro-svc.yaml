@@ -7,5 +7,5 @@ spec:
   selector:
     app: deployment-lanchonetebairro
   ports:
-    - port: 80
-      targetPort: 8080
+    - port: 8080
+      targetPort: 80
